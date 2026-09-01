@@ -1,4 +1,4 @@
-baseURL = 'https://socialspthothlabs.github.io/TimothyUnkert/'
+baseURL = 'https://socialspthothlabs.github.io/'
 locale = 'en-us'
 title = 'Pthoth Labs'
 theme = 'blowfish'
