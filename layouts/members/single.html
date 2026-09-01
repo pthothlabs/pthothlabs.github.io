@@ -1,0 +1,50 @@
+{{ define "main" }}
+{{ with resources.Get .Params.image }}
+<div class="member-hero" style="background-image: url('{{ .RelPermalink }}');"></div>
+{{ end }}
+<article class="prose max-w-none member-article">
+<div class="member-title-block">
+<h1>{{ .Title }}</h1>
+<div class="member-stats">
+  <span id="view-count">0</span> views · <span id="like-count">0</span> likes ·
+  <button id="like-btn">🤍 Like</button>
+</div>
+
+<script>
+(function() {
+  var slug = "{{ .File.BaseFileName }}";
+  var ns = "pthothlabs";
+
+  fetch("https://abacus.jasoncameron.dev/hit/" + ns + "/" + slug + "-views")
+    .then(r => r.json())
+    .then(d => document.getElementById("view-count").textContent = d.value);
+
+  fetch("https://abacus.jasoncameron.dev/get/" + ns + "/" + slug + "-likes")
+    .then(r => r.json())
+    .then(d => document.getElementById("like-count").textContent = d.value || 0);
+
+  document.getElementById("like-btn").addEventListener("click", function() {
+    fetch("https://abacus.jasoncameron.dev/hit/" + ns + "/" + slug + "-likes")
+      .then(r => r.json())
+      .then(d => {
+        document.getElementById("like-count").textContent = d.value;
+        document.getElementById("like-btn").textContent = "❤️ Liked";
+      });
+  });
+})();
+</script>
+
+
+</div>
+{{ .Content }}
+<h2>Mentioned In</h2>
+<ul>
+{{ $memberSlug := .File.BaseFileName }}
+{{ range .Site.RegularPages }}
+{{ if in .Params.members $memberSlug }}
+<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+{{ end }}
+{{ end }}
+</ul>
+</article>
+{{ end }}

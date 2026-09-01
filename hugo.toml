@@ -1,0 +1,59 @@
+baseURL = 'https://socialspthothlabs.github.io/TimothyUnkert/'
+locale = 'en-us'
+title = 'Pthoth Labs'
+theme = 'blowfish'
+
+[markup.goldmark.renderer]
+  unsafe = true
+
+[params.author]
+  name = "Pthoth Labs"
+  links = [
+    { email = "mailto:socials.pthoth.labs@gmail.com" },
+    { instagram = "https://www.instagram.com/pth0th.labs?igsi=bzQzNGFicW5wN29l" }
+  ]
+
+[params.homepage]
+    layout = "profile"
+[[menu.main]]
+    name = "Events"
+    pageRef = "events"
+    weight = 10
+
+[[menu.main]]
+    name = "Projects"
+    pageRef = "projects"
+    weight = 20
+
+[[menu.main]]
+    name = "Achievements"
+    pageRef = "achievements"
+    weight = 30
+
+[[menu.main]]
+    name = "About"
+    pageRef = "about"
+    weight = 40
+
+[[menu.main]]
+    name = "Contact"
+    pageRef = "contact"
+    weight = 50
+
+[[menu.main]]
+    name = "Members"
+    pageRef = "members"
+    weight = 50
+
+[pagination]
+  pagerSize = 30
+
+
+
+[params]
+  logo = "img/logo.png"
+  customCSS = ["css/custom.css"]
+  description = "Building tools, running experiments, and sharing what we learn."
+  images = ["img/logo.png"]
+defaultAppearance = "dark"
+disableThemeToggle = false

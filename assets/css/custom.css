@@ -1,0 +1,611 @@
+/* === Pthoth Labs Homepage Background (dark mode only) === */
+
+html.dark body {
+  position: relative;
+  background: linear-gradient(160deg, #0a0e1a 0%, #0d1526 40%, #0f1e33 100%) !important;
+  overflow-x: hidden;
+}
+
+/* Subtle grid overlay */
+html.dark body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -3;
+  background-image:
+    linear-gradient(rgba(120, 170, 255, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(120, 170, 255, 0.04) 1px, transparent 1px);
+  background-size: 48px 48px;
+  pointer-events: none;
+}
+
+/* Soft glow blobs (blue + gold) */
+html.dark body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  background:
+    radial-gradient(circle at 15% 20%, rgba(70, 130, 255, 0.12) 0%, transparent 35%),
+    radial-gradient(circle at 85% 75%, rgba(255, 200, 100, 0.06) 0%, transparent 30%),
+    radial-gradient(circle at 50% 100%, rgba(70, 130, 255, 0.08) 0%, transparent 40%);
+  pointer-events: none;
+}
+/* Light mode background */
+html:not(.dark) body {
+  position: relative;
+  background: linear-gradient(160deg, #eef3fb 0%, #e4ecf9 45%, #dbe6f7 100%) !important;
+  overflow-x: hidden;
+}
+
+html:not(.dark) body::before {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -3;
+  background-image:
+    linear-gradient(rgba(60, 100, 180, 0.05) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(60, 100, 180, 0.05) 1px, transparent 1px);
+  background-size: 48px 48px;
+  pointer-events: none;
+}
+
+html:not(.dark) body::after {
+  content: "";
+  position: fixed;
+  inset: 0;
+  z-index: -2;
+  background:
+    radial-gradient(circle at 15% 20%, rgba(80, 130, 255, 0.10) 0%, transparent 35%),
+    radial-gradient(circle at 85% 75%, rgba(255, 190, 90, 0.08) 0%, transparent 30%);
+  pointer-events: none;
+}
+/* Light mode dots — subtle version */
+html:not(.dark) .pthoth-bg-dots {
+  display: block;
+}
+
+html:not(.dark) .pthoth-bg-dots span {
+  background: #6f9eea;
+  box-shadow: 0 0 6px 1px rgba(111, 158, 234, 0.35);
+  opacity: 0.5;
+}
+
+/* Glowing dots (circuit "nodes") */
+.pthoth-bg-dots {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  overflow: hidden;
+  display: none;
+}
+
+html.dark .pthoth-bg-dots {
+  display: block;
+}
+
+.pthoth-bg-dots span {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: #7db4ff;
+  box-shadow: 0 0 8px 2px rgba(125, 180, 255, 0.6);
+  animation: pthoth-pulse 4s ease-in-out infinite;
+}
+
+.pthoth-bg-dots span:nth-child(1) { top: 12%; left: 8%; animation-delay: 0s; }
+.pthoth-bg-dots span:nth-child(2) { top: 25%; left: 80%; animation-delay: 1s; }
+.pthoth-bg-dots span:nth-child(3) { top: 60%; left: 15%; animation-delay: 2s; }
+.pthoth-bg-dots span:nth-child(4) { top: 70%; left: 88%; animation-delay: 0.5s; }
+.pthoth-bg-dots span:nth-child(5) { top: 45%; left: 50%; animation-delay: 1.5s; }
+.pthoth-bg-dots span:nth-child(6) { top: 88%; left: 40%; animation-delay: 2.5s; }
+
+@keyframes pthoth-pulse {
+  0%, 100% { opacity: 0.3; transform: scale(1); }
+  50% { opacity: 1; transform: scale(1.4); }
+}
+
+/* Faint circuit lines */
+.pthoth-bg-lines {
+  position: fixed;
+  inset: 0;
+  z-index: -1;
+  pointer-events: none;
+  opacity: 0.15;
+  display: none;
+  background-image:
+    linear-gradient(90deg, transparent 49.5%, rgba(125, 180, 255, 0.3) 50%, transparent 50.5%),
+    linear-gradient(0deg, transparent 49.5%, rgba(125, 180, 255, 0.15) 50%, transparent 50.5%);
+  background-size: 200px 200px, 300px 300px;
+  background-position: 10% 20%, 70% 60%;
+}
+
+html.dark .pthoth-bg-lines {
+  display: block;
+}
+
+/* === Content card styling === */
+html.dark .article-link--simple {
+  background: rgba(15, 25, 45, 0.55);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(125, 180, 255, 0.12);
+  border-radius: 12px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.25);
+  padding: 1rem;
+}
+
+html:not(.dark) .article-link--simple {
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(60, 100, 180, 0.10);
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(30, 50, 90, 0.08);
+  padding: 1rem;
+}
+
+/* === Hover effects === */
+html.dark .article-link--simple {
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+html.dark .article-link--simple:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.35), 0 0 20px rgba(125, 180, 255, 0.15);
+  border-color: rgba(125, 180, 255, 0.3);
+}
+
+html:not(.dark) .article-link--simple {
+  transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
+}
+html:not(.dark) .article-link--simple:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 8px 28px rgba(30, 50, 90, 0.15), 0 0 16px rgba(80, 130, 255, 0.10);
+  border-color: rgba(80, 130, 255, 0.25);
+}
+/* === Hero layout polish === */
+
+/* Constrain welcome paragraph to a readable width, centered */
+#the-top p,
+.hero p {
+  max-width: 620px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.7;
+}
+
+/* Tighter, more deliberate vertical rhythm */
+#the-top h1,
+.hero h1 {
+  margin-bottom: 0.5rem;
+  letter-spacing: -0.02em;
+}
+
+#the-top .social-icons,
+.hero .social-icons {
+  margin-bottom: 1.5rem;
+}
+
+/* Call-to-action button */
+.pthoth-cta {
+  display: inline-block;
+  margin-top: 2rem;
+  padding: 0.75rem 2rem;
+  border-radius: 999px;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+html.dark .pthoth-cta {
+  background: linear-gradient(135deg, #4682ff, #7db4ff);
+  color: #0a0e1a;
+  box-shadow: 0 4px 20px rgba(70, 130, 255, 0.3);
+}
+html.dark .pthoth-cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 28px rgba(70, 130, 255, 0.45);
+}
+
+html:not(.dark) .pthoth-cta {
+  background: linear-gradient(135deg, #3c6fe0, #6f9eea);
+  color: #fff;
+  box-shadow: 0 4px 16px rgba(60, 111, 224, 0.25);
+}
+html:not(.dark) .pthoth-cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 22px rgba(60, 111, 224, 0.35);
+}
+.pthoth-welcome {
+  display: block;
+  font-size: 1.4em;
+  margin-bottom: 0.5rem;
+}
+.pthoth-cta-group {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 2rem;
+}
+
+/* Secondary button style — outlined instead of filled, so it doesn't compete with the primary CTA */
+html.dark .pthoth-cta-secondary {
+  background: transparent;
+  border: 2px solid rgba(125, 180, 255, 0.4);
+  color: #7db4ff;
+  box-shadow: none;
+}
+html.dark .pthoth-cta-secondary:hover {
+  background: rgba(125, 180, 255, 0.1);
+  border-color: rgba(125, 180, 255, 0.6);
+}
+
+html:not(.dark) .pthoth-cta-secondary {
+  background: transparent;
+  border: 2px solid rgba(80, 130, 255, 0.4);
+  color: #3c6fe0;
+  box-shadow: none;
+}
+html:not(.dark) .pthoth-cta-secondary:hover {
+  background: rgba(80, 130, 255, 0.08);
+  border-color: rgba(80, 130, 255, 0.6);
+}
+
+.member-hero {
+  width: 100%;
+  height: 420px;
+  background-size: cover ;
+  background-position: center 20%;
+  -webkit-mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+  mask-image: linear-gradient(to bottom, black 50%, transparent 100%);
+  margin-bottom: -140px;
+}
+.member-title-block {
+  position: relative;
+  z-index: 1;
+  padding-top: 2rem;
+}
+.member-title-block h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin: 0;
+}
+.member-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  margin-top: 2rem;
+
+}
+.member-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  text-decoration: none;
+  border-radius: 16px;
+  overflow: hidden;
+  background: rgba(255,255,255,0.6);
+  padding: 0.75rem;
+  transition: transform 0.2s ease;
+}
+.member-card:hover {
+  transform: translateX(4px);
+}
+.member-card-img {
+  width: 80px;
+  height: 80px;
+  border-radius: 12px;
+  object-fit: cover;
+  display: block;
+  margin: 0;
+  flex-shrink: 0;
+}
+.member-card-name {
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+.member-stats {
+  color: #666;
+  font-size: 0.95rem;
+  margin-bottom: 1.5rem;
+}
+#like-btn {
+  border: 1px solid #ccc;
+  border-radius: 999px;
+  padding: 0.25rem 0.75rem;
+  background: transparent;
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+.site-logo {
+  height: 40px;
+  width: auto;
+  display: block;
+}
+.logo-dark {
+  display: none;
+}
+html.dark .logo-light {
+  display: none;
+}
+html.dark .logo-dark {
+  display: block;
+}
+/* ===== FONT IMPORTS ===== */
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap');
+
+:root {
+  --font-heading: 'Space Grotesk', sans-serif;
+  --font-body: 'Inter', sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+/* ===== BASE ===== */
+body {
+  font-family: var(--font-body);
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
+
+/* ===== NAVBAR ===== */
+header .main-menu > a {
+  font-family: var(--font-heading);
+  font-weight: 600;
+}
+
+header nav a {
+  font-family: var(--font-body);
+  font-weight: 500;
+}
+
+/* ===== HERO SUBTITLE ("Welcome to Pthoth Labs") ===== */
+.pthoth-welcome {
+  display: block;
+  font-size: 1.4em;
+  margin-bottom: .5rem;
+  font-family: var(--font-body);
+  font-weight: 600;
+}
+
+/* ===== BUTTONS / CTA ===== */
+.pthoth-cta, .pthoth-cta-outline, button, .btn {
+  font-family: var(--font-body);
+  font-weight: 600;
+}
+
+/* ===== SECTION HEADINGS ===== */
+.section-heading, article h2 {
+  font-family: var(--font-heading);
+  font-weight: 700;
+}
+
+.section-subheading {
+  font-family: var(--font-heading);
+  font-weight: 600;
+}
+
+/* ===== CARDS (Projects/Events/Achievements) ===== */
+.article-link--simple .card-title,
+.article-link--simple h3,
+.article-link--simple .title {
+  font-family: var(--font-heading);
+  font-weight: 600;
+}
+
+.article-link--simple p,
+.article-link--simple .description {
+  font-family: var(--font-body);
+  font-weight: 400;
+}
+
+/* ===== TAGS / SMALL LABELS ===== */
+.tag, .badge, .label {
+  font-family: var(--font-body);
+  font-weight: 500;
+}
+
+/* ===== TECHNICAL / MONOSPACE ELEMENTS ===== */
+code, pre,
+.tech-label,
+.project-id,
+.status-indicator,
+time, .date, .post-date {
+  font-family: var(--font-mono);
+  font-weight: 400;
+}
+
+/* ===== FOOTER ===== */
+footer {
+  font-family: var(--font-body);
+  font-weight: 400;
+}
+
+footer h3, footer h4 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+}
+
+footer a {
+  font-family: var(--font-body);
+  font-weight: 500;
+}
+
+/* ===== FORMS ===== */
+label {
+  font-family: var(--font-body);
+  font-weight: 500;
+}
+
+input, textarea, select {
+  font-family: var(--font-body);
+  font-weight: 400;
+}
+.pthoth-footer {
+  font-family: var(--font-body);
+  font-weight: 400;
+  padding: 3rem 1.5rem 2rem;
+}
+
+.footer-container {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.footer-brand h3 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+}
+
+.footer-tagline {
+  font-size: 0.95rem;
+  opacity: 0.75;
+}
+
+.footer-divider {
+  border: none;
+  border-top: 1px solid rgba(0,0,0,0.1);
+  margin: 1.5rem 0;
+}
+
+.footer-columns {
+  display: flex;
+  gap: 4rem;
+  flex-wrap: wrap;
+}
+
+.footer-col h4 {
+  font-family: var(--font-heading);
+  font-weight: 600;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  margin-bottom: 0.75rem;
+  opacity: 0.6;
+}
+
+.footer-col ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-col li {
+  margin-bottom: 0.5rem;
+}
+
+.footer-col a,
+footer a {
+  font-family: var(--font-body);
+  font-weight: 500;
+  text-decoration: none;
+  opacity: 0.85;
+  transition: opacity 0.2s ease;
+}
+
+.footer-col a:hover {
+  opacity: 1;
+}
+
+.footer-bottom {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  font-size: 0.85rem;
+  opacity: 0.6;
+}
+
+.footer-subtext {
+  font-style: italic;
+}
+
+@media (max-width: 600px) {
+  .footer-bottom {
+    flex-direction: column;
+    gap: 0.25rem;
+  }
+}
+.pthoth-footer {
+  background-color: #16302e;
+  color: #e6efec;
+}
+/* ===== FOOTER — LIGHT MODE (default) ===== */
+.pthoth-footer {
+  font-family: var(--font-body);
+  font-weight: 400;
+  padding: 3rem 1.5rem 2rem;
+  background-color: #F3F6F9;
+  color: #1E293B;
+}
+
+.footer-brand h3 {
+  color: #1E293B;
+}
+
+.footer-tagline {
+  color: #64748B;
+}
+
+.footer-col h4 {
+  color: #64748B;
+}
+
+.footer-col a,
+.pthoth-footer a {
+  color: #1E293B;
+}
+
+.footer-col a:hover,
+.pthoth-footer a:hover {
+  color: #3B82F6; /* swap to your exact Pthoth blue/cyan hex */
+}
+
+.footer-divider {
+  border-top: 1px solid rgba(30, 41, 59, 0.1);
+}
+
+.footer-bottom {
+  color: #64748B;
+}
+
+/* ===== FOOTER — DARK MODE ===== */
+.dark .pthoth-footer {
+  background-color: #151C2B;
+  color: #F1F5F9;
+}
+
+.dark .footer-brand h3 {
+  color: #F1F5F9;
+}
+
+.dark .footer-tagline {
+  color: #94A3B8;
+}
+
+.dark .footer-col h4 {
+  color: #94A3B8;
+}
+
+.dark .footer-col a,
+.dark .pthoth-footer a {
+  color: #F1F5F9;
+}
+
+.dark .footer-col a:hover,
+.dark .pthoth-footer a:hover {
+  color: #3B82F6; /* same accent, keep consistent across modes */
+}
+
+.dark .footer-divider {
+  border-top: 1px solid rgba(241, 245, 249, 0.1);
+}
+
+.dark .footer-bottom {
+  color: #94A3B8;
+}
