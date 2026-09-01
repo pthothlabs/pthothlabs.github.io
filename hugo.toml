@@ -10,7 +10,9 @@ theme = 'blowfish'
   name = "Pthoth Labs"
   links = [
     { email = "mailto:socials.pthoth.labs@gmail.com" },
-    { instagram = "https://www.instagram.com/pth0th.labs?igsi=bzQzNGFicW5wN29l" }
+    { instagram = "https://www.instagram.com/pth0th.labs?igsi=bzQzNGFicW5wN29l" },
+    { github = "https://github.com/socialspthothlabs" }
+  
   ]
 
 [params.homepage]
