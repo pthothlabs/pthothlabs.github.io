@@ -1,4 +1,4 @@
-baseURL = 'https://socialspthothlabs.github.io/'
+baseURL = 'https://pthothlabs.github.io/'
 locale = 'en-us'
 title = 'Pthoth Labs'
 theme = 'blowfish'
@@ -53,9 +53,10 @@ theme = 'blowfish'
 
 
 [params]
-  logo = "img/logo.png"
+  logoDark = "img/logo-dark.png"
+  logoLight = "img/logo-light.png"
   customCSS = ["css/custom.css"]
   description = "Building tools, running experiments, and sharing what we learn."
   images = ["img/logo.png"]
-defaultAppearance = "dark"
-disableThemeToggle = false
+  defaultAppearance = "dark"
+  disableThemeToggle = false
