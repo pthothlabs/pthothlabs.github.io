@@ -7,18 +7,16 @@
         <span class="sr-only">{{ .Site.Title | markdownify }}</span>
         {{ if $logoLight }}
           <img
-            src="{{ $logoLight.RelPermalink }}"
-            width="{{ div $logoLight.Width 2 }}"
-            height="{{ div $logoLight.Height 2 }}"
-            class="logo max-h-21 max-w-21 object-scale-down object-left nozoom block dark:hidden"
-            alt="">
+          src="{{ $logoLight.RelPermalink }}"
+           style="max-height:95px; max-width:95px; object-fit:scale-down; object-position:left;"
+          class="logo nozoom block dark:hidden"
+          alt="">
         {{ end }}
         {{ if $logoDark }}
           <img
-            src="{{ $logoDark.RelPermalink }}"
-            width="{{ div $logoDark.Width 2 }}"
-            height="{{ div $logoDark.Height 2 }}"
-            class="logo max-h-21 max-w-21 object-scale-down object-left nozoom hidden dark:block"
+              src="{{ $logoDark.RelPermalink }}"
+               style="max-height:95px; max-width:95px; object-fit:scale-down; object-position:left;"
+              class="logo nozoom hidden dark:block"
             alt="">
         {{ end }}
       </a>
