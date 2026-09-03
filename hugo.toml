@@ -55,6 +55,7 @@ theme = 'blowfish'
 [params]
   logoDark = "img/logo-dark.png"
   logoLight = "img/logo-light.png"
+  disableTextInHeader = true
   customCSS = ["css/custom.css"]
   description = "Building tools, running experiments, and sharing what we learn."
   images = ["img/logo.png"]
