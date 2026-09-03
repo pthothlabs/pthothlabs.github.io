@@ -1,6 +1,6 @@
 {{ define "main" }}
 {{ with resources.Get .Params.image }}
-<div class="member-hero" style="background-image: url('{{ .RelPermalink }}');"></div>
+<div class="member-hero" style="background-image: url('{{ .RelPermalink }}'); background-position: {{ $.Params.imagePosition | default `center center` }};"></div>
 {{ end }}
 <article class="prose max-w-none member-article">
 <div class="member-title-block">
