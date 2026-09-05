@@ -609,3 +609,35 @@ footer a {
 .dark .footer-bottom {
   color: #94A3B8;
 }
+
+.member-hero {
+  position: relative;
+}
+
+.member-hero::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.3) 40%, transparent 100%);
+  pointer-events: none;
+}
+
+.member-title-block h1,
+.member-title-block .member-stats {
+  color: #ffffff !important;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.9), 0 0 10px rgba(0,0,0,0.6);
+}
+
+.member-article,
+.member-article p,
+.member-article li,
+.member-article h2,
+.member-article h3 {
+  color: #ffffff !important;
+  text-shadow: 0 1px 4px rgba(0,0,0,0.9), 0 0 10px rgba(0,0,0,0.6);
+}
+
+.member-article a {
+  color: #ffffff !important;
+  text-decoration: underline;
+}
