@@ -319,6 +319,13 @@ time, .date, .post-date {
   font-family: var(--font-mono);
   font-weight: 400;
 }
+@media (max-width: 768px), (orientation: portrait) {
+  body::before {
+    background:
+      url("/img/pthoth-bg.png") center top / 100% auto no-repeat,
+      url("/img/pthoth-bg.png") center bottom / 100% auto no-repeat;
+  }
+}
 
 /* ===== FOOTER ===== */
 footer {
