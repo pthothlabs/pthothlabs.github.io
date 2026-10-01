@@ -11,7 +11,9 @@ theme = 'blowfish'
   links = [
     { email = "mailto:socials.pthoth.labs@gmail.com" },
     { instagram = "https://www.instagram.com/pth0th.labs?igsi=bzQzNGFicW5wN29l" },
-    { github = "https://github.com/socialspthothlabs" }
+    { github = "https://github.com/socialspthothlabs" },
+    {twitter = "https://x.com/pth0thlabs" },
+     {facebook = "https://www.facebook.com/share/1DDX35EcmL" }
   
   ]
 
@@ -61,3 +63,5 @@ theme = 'blowfish'
   images = ["img/logo.png"]
   defaultAppearance = "dark"
   disableThemeToggle = false
+
+  
