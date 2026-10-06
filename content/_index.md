@@ -6,5 +6,5 @@ title: "Pthoth Labs"
 Building tools, Running Experiments, and Sharing what we Learn.
 <div class="pthoth-cta-group">
   <a href="/projects/" class="pthoth-cta">Explore Projects →</a>
-  <a href="/events/" class="pthoth-cta pthoth-cta-secondary">Explore Events →</a>
+  <a href="/journals/" class="pthoth-cta pthoth-cta-secondary">Explore Journals →</a>
 </div>

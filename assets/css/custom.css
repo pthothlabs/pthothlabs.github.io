@@ -549,3 +549,20 @@ footer a {
   text-decoration: underline;
 }
 
+.report-card {
+  display: block;
+  border: 1px solid rgba(128, 128, 128, 0.35);
+  border-radius: 14px;
+  padding: 20px 28px;
+  margin: 36px 0;
+  background: rgba(255, 255, 255, 0.6);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+html.dark .report-card {
+  background: rgba(30, 41, 59, 0.6);
+}
+.report-card::after {
+  content: "";
+  display: block;
+  clear: both;
+}
