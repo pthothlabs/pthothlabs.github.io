@@ -4,4 +4,10 @@ draft = false
 title = 'About'
 description = "Who we are and what Pthoth Labs is building."
 +++
-Pthoth Labs is a student-led innovation space focused on building tools , running experiments , and sharing what we learn.
+What We Do
+
+PTHOTH Labs brings learning beyond the classroom through technology, creativity, and experimentation.
+
+We create visual resources, interactive activities, digital tools, and practical learning experiences that make concepts easier to understand and encourage students to explore, question, and create.
+
+See. Explore. Understand. Create.
