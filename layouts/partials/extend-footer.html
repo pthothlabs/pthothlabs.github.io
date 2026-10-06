@@ -3,3 +3,35 @@
   <span></span><span></span><span></span>
 </div>
 <div class="pthoth-bg-lines"></div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  if (!location.pathname.startsWith('/journals/week-')) return;
+  var box = document.querySelector('.article-content');
+  if (!box) return;
+  var body = null;
+  Array.from(box.children).forEach(function (el) {
+    if (el.tagName === 'H2') {
+      var card = document.createElement('div');
+      card.className = 'intern-report';
+      var head = document.createElement('div');
+      head.className = 'intern-head';
+      body = document.createElement('div');
+      body.className = 'intern-body';
+      body.style.display = 'none';
+      el.parentNode.insertBefore(card, el);
+      head.appendChild(el);
+      card.appendChild(head);
+      card.appendChild(body);
+      head.addEventListener('click', function () {
+        var open = body.style.display === 'none';
+        var b = this.nextElementSibling;
+        b.style.display = open ? 'block' : 'none';
+        this.classList.toggle('is-open', open);
+      });
+    } else if (body) {
+      body.appendChild(el);
+    }
+  });
+});
+</script>

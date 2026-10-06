@@ -64,4 +64,4 @@ theme = 'blowfish'
   defaultAppearance = "dark"
   disableThemeToggle = false
 
-  
+  showTableOfContents = true
