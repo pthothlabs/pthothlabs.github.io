@@ -192,10 +192,10 @@ Week 1 gave me the foundation for the work ahead. The official channels were est
 
 <details>
 
-<summary><strong>🔍Tazeen </strong> — IT Manager Intern</summary>
+<summary><strong>🔍Tazeen </strong> —Researcher & Documentation </summary>
 
 ## 📋 Tazeen
-### My First Internship Begins – Stepping into the Role of a Researcher
+### My First Internship Begins – Stepping into the Role of a Researcher & Documentation
 
 ### Digital Literacy and Learning Outreach: An Internship Experience with GCompris-Based Learning
 
