@@ -8,6 +8,13 @@ members = ["timothy-unkert"]
  
 <div class="report-card">
 
+<details>
+
+<summary><strong>💻 Ummehabiba Akeelahmed Kotwal</strong> — IT Manager Intern</summary>
+
+### Starting My EdTech Research Internship as an IT Manager
+
+
 ## 💻 Ummehabiba Akeelahmed Kotwal
 
 ### Starting My EdTech Research Internship as an IT Manager
@@ -94,9 +101,18 @@ That became the foundation for the technical work I carried out in the following
 
 *Written by Ummehabiba Akeelahmed Kotwal, IT Manager Intern. IT Manager internship with Pthoth in collaboration with Swami Vivekanand Seva Pratisthan (SVSP), Belagavi.*
 
+</details>
+
 </div>
 
 <div class="report-card">
+
+<details>
+<summary><strong>📱 Rakshita Pawar</strong> — Social Media Manager Intern</summary>
+
+### Weekly Progress Report: Week 1
+
+
 
 ## 📱 Rakshita Pawar
 
@@ -168,11 +184,15 @@ Week 1 gave me the foundation for the work ahead. The official channels were est
 
 *Written by Rakshita Pawar, Social Media Manager Intern · PTHOTH Labs × SVSP, Belagavi*
 
+</details>
+
 </div>
 
-
-
 <div class="report-card">
+
+<details>
+
+<summary><strong>🔍Tazeen </strong> — IT Manager Intern</summary>
 
 ## 📋 Tazeen
 ### My First Internship Begins – Stepping into the Role of a Researcher
@@ -261,9 +281,16 @@ At the same time, the sessions demonstrated that technology alone cannot guarant
 
 Overall, the internship was a meaningful learning experience that allowed me to connect technology with education while developing practical skills in observation, analysis, documentation and reporting.
 
+</details>
+
 </div>
 
 <div class="report-card">
+<details>
+<summary><strong>🔍 Shreya Deepak Hebbalkar</strong> — Researcher & Documentation Intern</summary>
+
+### Week 1: My First Internship Begins – Stepping into the Role of a Researcher
+
 
 ## 🔍 Shreya Deepak Hebbalkar
 
@@ -322,10 +349,16 @@ My first week was an introduction to the world of research and documentation. It
 
 This was the beginning of my professional journey, and I look forward to learning new things, improving my skills and gaining practical experience throughout my internship.
 
+</details>
+
 </div>
 
 
 <div class="report-card">
+<details>
+<summary><strong>👩‍🏫 Mamta Konnuri</strong> — Teacher Intern</summary>
+
+### My First Week as an Intern: Learning to Listen Before Teaching
 
 ## 👩‍🏫 Mamta Konnuri
 
@@ -359,9 +392,14 @@ I am excited for the weeks ahead and grateful for the chance to learn from the c
 
 #Internship #Education #GamifiedLearning #TeachingChildren #Research #LearningByDoing #FirstWeek
 
+</details>
+
 </div>
 
 <div class="report-card">
+<details>
+<summary><strong>👩‍🏫 Zaveriya Baig</strong> — Teacher Intern</summary>
+
 
 ## 🎓 Zaveriya Baig
 
@@ -563,10 +601,15 @@ Some students struggled with basic concepts such as multiplication, division and
 | DeshKit games | [deshkit.com/games](https://deshkit.com/games) |
 | MathGames.org | [mathgames.org](https://mathgames.org) |
 
+</details>
+
 </div>
 
 
 <div class="report-card">
+<details>
+<summary><strong>🎬 Pavitra Madiwal</strong> — Social Media Manager Intern</summary>
+
 
 ## 🎬 Pavitra Madiwal
 
@@ -619,14 +662,19 @@ Photograph from the classroom session showing students engaging with the interac
 
 
 *Figure 1.2: Students during the interactive smart board session.*
+</details>
 
 </div>
 
 <div class="report-card">
+<details>
+<summary><strong>🎲 Vinit</strong> — POC Manager</summary>
+
+### Weekly Progress Report: Weeks 1
 
 ## 🎲 Vinit
 
-### Weekly Progress Report: Weeks 1 & 2
+### Weekly Progress Report: Weeks 1
 
 *Learning Through Play: Our First Two Saturdays at Pthoth Labs*
 
@@ -720,10 +768,13 @@ The photographs below show students using interactive games on the smart board.
 - **Choice Builds Curiosity:** Letting students pick their own games kept them motivated.
 
 > *"When learning feels like play, children lean in."*
-
+ 
+</details>
 </div>
 
 <div class="report-card">
+<details>
+<summary><strong>📚 Naqeeda M</strong> — Researcher & Documentation Intern</summary>
 
 ## 📚 Naqeeda M
 
@@ -786,10 +837,13 @@ The counting activity in which fruits are placed on the shell of a green turtle.
 
 
 *Figure 1.2: GCompris counting activity observed during the session.*
-
+</details>
 </div>
 
 <div class="report-card">
+<details>
+<summary><strong>🤝 Varshini</strong> — POC Manager</summary>
+
 
 ## 🤝 Varshini
 
@@ -852,12 +906,13 @@ Photograph from the classroom session showing students seated together, engaged 
 
 
 *Figure 1.2: Students seated together, engaged in a group activity led by the team.*
-
+</details>
 </div>
 
-
-
 <div class="report-card">
+<details>
+<summary><strong>🤖 Vishwas Karikatti</strong> — Teacher Intern</summary>
+
 
 ## 🤖 Vishwas Karikatti
 
@@ -986,9 +1041,12 @@ The following links were used as reference and learning resources during the wee
 #### 10. My Key Takeaway
 
 My first week was an introduction to the responsibility and joy of teaching. It showed me that a good teacher is not the one who knows the most, but the one who helps others understand. I learned the importance of preparation, patience and clear communication, and I am looking forward to improving my teaching skills, learning from my students, and gaining more practical experience in the weeks ahead.
-
+</details>
 </div>
+
 <div class="report-card">
+<details>
+<summary><strong>🔍 Sneha Gurav</strong> — Researcher & Documentation Intern</summary>
 
 ## 🔍 Sneha Gurav
 
@@ -1075,9 +1133,12 @@ There is still a lot I do not know. My questions will change as I learn more, an
 This internship has started to change not only what I do, but also how I look at things.
 
 I am still learning what to look for. But I have started to look.
-
+</details>
 </div>
+
 <div class="report-card">
+<details>
+<summary><strong>🔬 Nandini</strong> — Researcher & Documentation Intern</summary>
 
 ## 🔬 Nandini
 
@@ -1137,10 +1198,13 @@ Combining a teacher's explanation with digital tools and hands-on activities mak
 - **Upcoming Focus:** Continuing to observe, learn from the students as much as from the classroom itself, and document how support affects confidence in the weeks ahead.
 
 **Tags:** #Research #ClassroomObservation #Education #DigitalLearning #PhETSimulation #ActivityBasedLearning #FirstWeek
-
+</details>
 </div>
 
 <div class="report-card">
+<details>
+
+<summary><strong>👩‍🏫Soundarya</strong> — Teacher Intern</summary>
 
 ## 🎮 Soundarya
 
@@ -1199,5 +1263,5 @@ The shared screen also meant I couldn't capture individual performance data auto
 #### Final thoughts
 
 This session was a proof of concept rather than a research study. But it showed me that when learning feels like play, students lean in. The next step is pairing that energy with simple tracking, so the fun can be backed up with evidence.
-
+</details>
 </div>
