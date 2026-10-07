@@ -1144,7 +1144,7 @@ Combining a teacher's explanation with digital tools and hands-on activities mak
 
 ## 🎮 Soundarya
 
-### Playing My Way to Better English
+### Learning to See Beyond What Is Visible.
 
 *A classroom journal on swapping worksheets for games*
 
