@@ -15,11 +15,9 @@ members = ["timothy-unkert"]
 ### Starting My EdTech Research Internship as an IT Manager
 
 
-## 💻 Ummehabiba Akeelahmed Kotwal
-
 ### Starting My EdTech Research Internship as an IT Manager
 
-*IT Manager Intern · EdTech Research Internship, Week 1 of 7*
+*IT Manager Intern · EdTech Research Internship
 
 Starting my EdTech Research Internship with Pthoth, in collaboration with Swami Vivekanand Seva Pratisthan (SVSP), Belagavi, was different from a conventional internship where the focus is only on developing software.
 
@@ -110,13 +108,8 @@ That became the foundation for the technical work I carried out in the following
 <details>
 <summary><strong>📱 Rakshita Pawar</strong> — Social Media Manager Intern</summary>
 
-### Weekly Progress Report: Week 1
+### A Week of building , Learing and Creating
 
-
-
-## 📱 Rakshita Pawar
-
-### Weekly Progress Report: Week 1
 
 *Building the Digital Identity Behind the Work · Social Media Manager Intern*
 
@@ -192,9 +185,9 @@ Week 1 gave me the foundation for the work ahead. The official channels were est
 
 <details>
 
-<summary><strong>🔍Tazeen </strong> —Researcher & Documentation </summary>
+<summary><strong>🔍Tazeen Maldar </strong> —Researcher & Documentation </summary>
 
-## 📋 Tazeen
+## 📋 Tazeen Maldar
 ### My First Internship Begins – Stepping into the Role of a Researcher & Documentation
 
 ### Digital Literacy and Learning Outreach: An Internship Experience with GCompris-Based Learning
@@ -287,12 +280,9 @@ Overall, the internship was a meaningful learning experience that allowed me to 
 
 <div class="report-card">
 <details>
-<summary><strong>🔍 Shreya Deepak Hebbalkar</strong> — Researcher & Documentation Intern</summary>
-
-### Week 1: My First Internship Begins – Stepping into the Role of a Researcher
-
-
-## 🔍 Shreya Deepak Hebbalkar
+<summary><strong>🔍 Shreya </strong> — Researcher & Documentation Intern</summary>
+ 
+## 🔍 Shreya 
 
 ### Week 1: My First Internship Begins – Stepping into the Role of a Researcher
 
@@ -358,8 +348,6 @@ This was the beginning of my professional journey, and I look forward to learnin
 <details>
 <summary><strong>👩‍🏫 Mamta Konnuri</strong> — Teacher Intern</summary>
 
-### My First Week as an Intern: Learning to Listen Before Teaching
-
 ## 👩‍🏫 Mamta Konnuri
 
 ### My First Week as an Intern: Learning to Listen Before Teaching
@@ -399,7 +387,6 @@ I am excited for the weeks ahead and grateful for the chance to learn from the c
 <div class="report-card">
 <details>
 <summary><strong>👩‍🏫 Zaveriya Baig</strong> — Teacher Intern</summary>
-
 
 ## 🎓 Zaveriya Baig
 
@@ -610,7 +597,6 @@ Some students struggled with basic concepts such as multiplication, division and
 <details>
 <summary><strong>🎬 Pavitra Madiwal</strong> — Social Media Manager Intern</summary>
 
-
 ## 🎬 Pavitra Madiwal
 
 ### Weekly Progress Report: Week 1
@@ -668,11 +654,9 @@ Photograph from the classroom session showing students engaging with the interac
 
 <div class="report-card">
 <details>
-<summary><strong>🎲 Vinit</strong> — POC Manager</summary>
+<summary><strong>🎲 Vinit Lohar</strong> — POC Manager</summary>
 
-### Weekly Progress Report: Weeks 1
-
-## 🎲 Vinit
+## 🎲 Vinit Lohar
 
 ### Weekly Progress Report: Weeks 1
 
@@ -774,9 +758,9 @@ The photographs below show students using interactive games on the smart board.
 
 <div class="report-card">
 <details>
-<summary><strong>📚 Naqeeda M</strong> — Researcher & Documentation Intern</summary>
+<summary><strong>📚 Naqeeda </strong> — Researcher & Documentation Intern</summary>
 
-## 📚 Naqeeda M
+## 📚 Naqeeda 
 
 ### Weekly Progress Report: Week 1
 
@@ -842,10 +826,11 @@ The counting activity in which fruits are placed on the shell of a green turtle.
 
 <div class="report-card">
 <details>
-<summary><strong>🤝 Varshini</strong> — POC Manager</summary>
+
+<summary><strong>🤝 Varshini Gudigar </strong> — POC Manager</summary>
 
 
-## 🤝 Varshini
+## 🤝 Varshini Gudigar
 
 ### Weekly Progress Report: Week 1
 
@@ -1046,9 +1031,9 @@ My first week was an introduction to the responsibility and joy of teaching. It 
 
 <div class="report-card">
 <details>
-<summary><strong>🔍 Sneha Gurav</strong> — Researcher & Documentation Intern</summary>
+<summary><strong>🔍 Sneha</strong> — Researcher & Documentation Intern</summary>
 
-## 🔍 Sneha Gurav
+## 🔍 Sneha 
 
 ### Learning to See Beyond What Is Visible
 
@@ -1138,9 +1123,9 @@ I am still learning what to look for. But I have started to look.
 
 <div class="report-card">
 <details>
-<summary><strong>🔬 Nandini</strong> — Researcher & Documentation Intern</summary>
+<summary><strong>🔬 Nandini Dasar</strong> — Researcher & Documentation Intern</summary>
 
-## 🔬 Nandini
+## 🔬 Nandini Dasar
 
 ### Weekly Progress Report: Week 1
 
@@ -1204,9 +1189,9 @@ Combining a teacher's explanation with digital tools and hands-on activities mak
 <div class="report-card">
 <details>
 
-<summary><strong>👩‍🏫Soundarya</strong> — Teacher Intern</summary>
+<summary><strong>👩‍🏫Soundarya Magdum</strong> — Teacher Intern</summary>
 
-## 🎮 Soundarya
+## 🎮 Soundarya Magdum
 
 ### Learning to See Beyond What Is Visible.
 
