@@ -11,6 +11,14 @@
     <lastmod>2026-08-22T00:26:12-07:00</lastmod>
   </url>
   <url>
+    <loc>http://localhost:1313/journals/week-1/</loc>
+    <lastmod>2026-08-22T00:26:12-07:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/journals/week-2/</loc>
+    <lastmod>2026-08-29T22:50:00+05:30</lastmod>
+  </url>
+  <url>
     <loc>http://localhost:1313/journals/week-1/rakshita/</loc>
     <lastmod>2026-08-22T00:26:12-07:00</lastmod>
   </url>
@@ -87,10 +95,6 @@
     <lastmod>2026-10-09T23:00:00+05:30</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/journals/week-2/</loc>
-    <lastmod>2026-08-29T22:50:00+05:30</lastmod>
-  </url>
-  <url>
     <loc>http://localhost:1313/members/prithvi/</loc>
     <lastmod>2026-08-26T00:00:00-07:00</lastmod>
   </url>
@@ -129,10 +133,6 @@
   <url>
     <loc>http://localhost:1313/projects/</loc>
     <lastmod>2026-08-22T00:41:20-07:00</lastmod>
-  </url>
-  <url>
-    <loc>http://localhost:1313/journals/week-1/</loc>
-    <lastmod>2026-08-22T00:26:12-07:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/journals/</loc>

@@ -66,4 +66,8 @@ theme = 'blowfish'
 
   showTableOfContents = true
 
- 
+ showAuthor = false
+showDate = false
+showReadingTime = false
+showWordCount = false
+showPagination = false
