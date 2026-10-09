@@ -48,7 +48,7 @@
 <h2>Journals / Contributions</h2>
 <ul>
 {{ range sort $contribs "Params.week" }}
-<li><strong>{{ .Parent.Parent.Title }} — {{ .Parent.Title }}</strong>: <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+<li><strong>{{ with .Parent.Params.cohort }}{{ . }} — {{ end }}{{ .Parent.Title }}</strong>: <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
 {{ end }}
 </ul>
 {{ end }}

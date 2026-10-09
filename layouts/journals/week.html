@@ -1,9 +1,9 @@
 {{ define "main" }}
 <article class="prose max-w-none">
-<h1>{{ .Parent.Title }} · {{ .Title }}</h1>
+<h1>{{ with .Params.cohort }}{{ . }} · {{ end }}{{ .Title }}</h1>
 {{ .Content }}
 
-<h2 class="contributors-heading">Contributors</h2>
+<h2 class="contributors-heading">The People Behind the Journals</h2>
 <ul class="contributor-list">
 {{ range .Pages.ByWeight }}
   {{ $m := site.GetPage (printf "/members/%s" .Params.contributor) }}

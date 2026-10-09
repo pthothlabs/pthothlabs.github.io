@@ -4,5 +4,5 @@
   <span>{{ $p.Params.emoji }}
   {{ with $m }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ else }}{{ $p.Params.contributor }}{{ end }}
   · {{ $p.Params.role }}</span>
-  <a class="journal-byline-back" href="{{ $p.Parent.RelPermalink }}">← {{ $p.Parent.Parent.Title }} · {{ $p.Parent.Title }}</a>
+  <a class="journal-byline-back" href="{{ $p.Parent.RelPermalink }}">← {{ with $p.Parent.Params.cohort }}{{ . }} · {{ end }}{{ $p.Parent.Title }}</a>
 </div>

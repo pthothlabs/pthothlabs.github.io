@@ -4,7 +4,8 @@ date = '2026-08-22T00:26:12-07:00'
 draft = false
 week = 1
 layout = 'week'
-aliases = ['/journals/week-1/']
+cohort = 'First Journals'
+aliases = ['/journals/first-journals/']
 description = "Week 1 of the EdTech Research Internship, PTHOTH × Swami Vivekanand Seva Pratisthan (SVSP), Belagavi."
 +++
 
