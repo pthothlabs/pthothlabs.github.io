@@ -5,4 +5,4 @@ title = 'Journal'
 description = "Workshops, hackathons, and sessions hosted by Pthoth Labs."
 +++
 
-Upcoming and past events from Pthoth Labs
+A record of our weekly progress, individual contributions, experiments, and learning journey at PTHOTH Labs.

@@ -1,4 +1,4 @@
-{{ define "main" }}
+﻿{{ define "main" }}
 {{ with resources.Get .Params.image }}
 <div class="member-hero" style="background-image: url('{{ .RelPermalink }}'); background-position: {{ $.Params.imagePosition | default `center center` }};"></div>
 {{ end }}
