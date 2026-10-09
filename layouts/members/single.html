@@ -37,14 +37,34 @@
 
 </div>
 {{ .Content }}
-<h2>Mentioned In</h2>
-<ul>
 {{ $memberSlug := .File.BaseFileName }}
+{{ $contribs := slice }}
 {{ range .Site.RegularPages }}
-{{ if in .Params.members $memberSlug }}
-<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+{{ if and .Params.contributor (eq .Params.contributor $memberSlug) }}
+{{ $contribs = $contribs | append . }}
 {{ end }}
+{{ end }}
+{{ if $contribs }}
+<h2>Journals / Contributions</h2>
+<ul>
+{{ range sort $contribs "Params.week" }}
+<li><strong>{{ .Parent.Parent.Title }} — {{ .Parent.Title }}</strong>: <a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
 {{ end }}
 </ul>
+{{ end }}
+{{ $mentions := slice }}
+{{ range .Site.RegularPages }}
+{{ if in .Params.members $memberSlug }}
+{{ $mentions = $mentions | append . }}
+{{ end }}
+{{ end }}
+{{ if $mentions }}
+<h2>Mentioned In</h2>
+<ul>
+{{ range $mentions }}
+<li><a href="{{ .RelPermalink }}">{{ .Title }}</a></li>
+{{ end }}
+</ul>
+{{ end }}
 </article>
 {{ end }}

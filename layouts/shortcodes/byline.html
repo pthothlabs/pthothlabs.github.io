@@ -1,0 +1,8 @@
+{{- $p := .Page -}}
+{{- $m := site.GetPage (printf "/members/%s" $p.Params.contributor) -}}
+<div class="journal-byline">
+  <span>{{ $p.Params.emoji }}
+  {{ with $m }}<a href="{{ .RelPermalink }}">{{ .Title }}</a>{{ else }}{{ $p.Params.contributor }}{{ end }}
+  · {{ $p.Params.role }}</span>
+  <a class="journal-byline-back" href="{{ $p.Parent.RelPermalink }}">← {{ $p.Parent.Parent.Title }} · {{ $p.Parent.Title }}</a>
+</div>

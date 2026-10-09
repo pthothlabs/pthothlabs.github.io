@@ -585,3 +585,40 @@ h1, h2, h3, h4, h5 {
 .prose .intern-head::after { content: '+'; font-size: 1.6rem; }
 .prose .intern-head.is-open::after { content: '\2212'; }
 .prose .intern-body { padding-bottom: 1.2rem; }
+/* Journal ↔ Member relationship */
+.journal-byline { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 8px 16px; align-items: center; padding: 10px 16px; margin: 0 0 1.5rem; border: 1px solid rgba(128,128,128,.35); border-radius: 12px; font-size: .95rem; }
+.journal-byline-back { opacity: .8; }
+.contributor-list { list-style: none; padding: 0; margin: 1rem 0; }
+.contributor-item { border: 1px solid rgba(128,128,128,.35); border-radius: 14px; padding: 12px 18px; margin: 12px 0; }
+.contributor-who { font-size: 1.05rem; }
+.contributor-emoji { margin-right: 6px; }
+.contributor-role { opacity: .75; }
+.contributor-journal { margin-top: 4px; font-size: .95rem; }
+.prose .contributors-heading { margin-top: 2rem; }
+
+/* ===== Member profile: readable text in light mode ===== */
+html:not(.dark) .member-title-block h1,
+html:not(.dark) .member-title-block .member-stats,
+html:not(.dark) .member-article,
+html:not(.dark) .member-article p,
+html:not(.dark) .member-article li,
+html:not(.dark) .member-article h2,
+html:not(.dark) .member-article h3 {
+  color: #1a1a1a !important;
+  text-shadow: 0 1px 3px rgba(255, 255, 255, 0.8);
+}
+
+html:not(.dark) .member-article a {
+  color: #1d4ed8 !important;
+  text-decoration: underline;
+}
+
+/* The dark gradient over the photo is only needed in dark mode */
+html:not(.dark) .member-hero::after {
+  background: linear-gradient(to top, rgba(255,255,255,0.6) 0%, rgba(255,255,255,0.2) 40%, transparent 100%);
+}
+
+html:not(.dark) #like-btn {
+  color: #1a1a1a;
+  border-color: #888;
+}

@@ -1,0 +1,21 @@
+{{ define "main" }}
+<article class="prose max-w-none">
+<h1>{{ .Parent.Title }} · {{ .Title }}</h1>
+{{ .Content }}
+
+<h2 class="contributors-heading">Contributors</h2>
+<ul class="contributor-list">
+{{ range .Pages.ByWeight }}
+  {{ $m := site.GetPage (printf "/members/%s" .Params.contributor) }}
+  <li class="contributor-item">
+    <div class="contributor-who">
+      <span class="contributor-emoji">{{ .Params.emoji }}</span>
+      {{ with $m }}<a href="{{ .RelPermalink }}"><strong>{{ .Title }}</strong></a>{{ else }}<strong>{{ .Params.contributor }}</strong>{{ end }}
+      <span class="contributor-role">— {{ .Params.role }}</span>
+    </div>
+    <div class="contributor-journal"><a href="{{ .RelPermalink }}">{{ .Title }} →</a></div>
+  </li>
+{{ end }}
+</ul>
+</article>
+{{ end }}
