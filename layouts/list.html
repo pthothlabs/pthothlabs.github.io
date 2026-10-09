@@ -2,7 +2,7 @@
 <h1>{{ .Title }}</h1>
 {{ .Content }}
 <div class="member-grid">
-{{ range .Pages.ByDate.Reverse }}
+{{ range .Pages.ByWeight }}
 <a href="{{ .RelPermalink }}" class="member-card">
   {{ with resources.Get .Params.image }}
   <img src="{{ .RelPermalink }}" alt="{{ $.Title }}" class="member-card-img">
