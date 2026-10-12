@@ -19,8 +19,6 @@ theme = 'blowfish'
 
 [params.homepage]
     layout = "profile"
-    showRecent = true
-    showRecentItems = 6
 [[menu.main]]
     name = "Journals"
     pageRef = "journals"
