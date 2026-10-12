@@ -647,3 +647,26 @@ html.dark .footer-bottom p,
 html.dark .footer-subtext {
   color: #c8d0e0;
 }
+
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+4:wght@600;700&family=Caveat:wght@500;600&display=swap');
+.pthoth-welcome {
+  display: block;
+  text-align: center;
+  font-family: 'Source Serif 4', Georgia, serif !important;
+  font-weight: 700 !important;
+  font-size: clamp(1.4rem, 3vw, 1.9rem) !important;
+  color: #0f2a55 !important;
+  margin: 1rem 0 0.5rem;
+}
+
+.pthoth-tagline {
+  text-align: center;
+  font-family: 'Caveat', cursive !important;
+  font-weight: 600 !important;
+  font-size: 1.4rem !important;
+  color: #14315c !important;
+  margin-top: 2rem;
+}
+
+html.dark .pthoth-welcome { color: #ffffff !important; }
+html.dark .pthoth-tagline { color: #bcd0ff !important; }
