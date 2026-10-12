@@ -604,6 +604,7 @@ html:not(.dark) .member-article p,
 html:not(.dark) .member-article li,
 html:not(.dark) .member-article h2,
 html:not(.dark) .member-article h3 {
+ 
   color: #1a1a1a !important;
   text-shadow: 0 1px 3px rgba(255, 255, 255, 0.8);
 }
@@ -621,4 +622,28 @@ html:not(.dark) .member-hero::after {
 html:not(.dark) #like-btn {
   color: #1a1a1a;
   border-color: #888;
+}
+.footer-subtext a {
+  color: inherit;
+  text-decoration: underline;
+}
+.footer-subtext a:hover {
+  color: #c9a24a; /* your gold accent */
+}
+.footer-bottom p,
+.footer-subtext {
+  color: #3b4a6b;   /* muted navy, matches your line art */
+  opacity: 1;
+  font-size: 0.9rem;
+}
+.footer-subtext a {
+  color: inherit;
+  text-decoration: underline;
+}
+.footer-subtext a:hover {
+  color: #c9a24a;   /* your gold accent */
+}
+html.dark .footer-bottom p,
+html.dark .footer-subtext {
+  color: #c8d0e0;
 }
