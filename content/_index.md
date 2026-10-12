@@ -2,7 +2,7 @@
 title: "PTHOTH Labs"
 ---
 
-<strong class="pthoth-welcome">Welcome to PTHOTH Labs! ✨</strong>
+<strong class="pthoth-welcome">Welcome to PTHOTH Labs! </strong>
 
 <p class="pthoth-sub">Making learning visual, interactive, and meaningful.</p>
 
@@ -14,7 +14,7 @@ title: "PTHOTH Labs"
 
 <p class="pthoth-text">We believe every concept has the potential to spark curiosity when presented in the right way. By combining creativity, research, and technology, we strive to create learning experiences that go beyond traditional methods.</p>
 
-<p class="pthoth-tagline">See it. Explore it. Understand it. 🌱</p>
+<p class="pthoth-tagline">See it. Explore it. Understand it. </p>
 
 <p class="pthoth-closing">Together, let's make learning more meaningful,<br>one concept at a time.</p>
 
