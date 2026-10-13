@@ -69,3 +69,5 @@ showDate = false
 showReadingTime = false
 showWordCount = false
 showPagination = false
+[params.article]
+  showTableOfContents = true

@@ -4,7 +4,7 @@ date = '2026-08-22T00:26:12-07:00'
 draft = false
 week = 1
 weight = 5
-contributor = "mamta-konnuri"
+author = "mamta-konnuri"
 role = "Teacher Intern"
 emoji = "👩‍🏫"
 +++
