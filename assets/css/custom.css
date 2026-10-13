@@ -707,3 +707,30 @@ html.dark .pthoth-tagline { color: #bcd0ff !important; }
     background: rgba(20, 24, 40, 0.85);
   }
 }
+/* More space above "Pthoth Labs" */
+main h1:first-of-type {
+  margin-top: 4rem;
+  margin-bottom: 1rem;
+}
+
+/* Space around the social icons */
+main .flex.flex-wrap {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Space above "Welcome to PTHOTH Labs!" */
+main h2 {
+  margin-top: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Airier paragraphs, narrower text like the SIC page */
+main .prose p {
+  margin-top: 1.5rem;
+  margin-bottom: 1rem;
+  line-height: 1.9;
+  max-width: 42rem;
+  margin-left: auto;
+  margin-right: auto;
+}
