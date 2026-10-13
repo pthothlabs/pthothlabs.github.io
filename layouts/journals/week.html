@@ -6,8 +6,24 @@
 <h2 class="contributors-heading">The People Behind the Journals</h2>
 <ul class="contributor-list">
 {{ range .Pages.ByWeight }}
+  {{ $j := . }}
   {{ $m := site.GetPage (printf "/members/%s" .Params.contributor) }}
+
+  {{/* Use featured.* if present, otherwise the first image in the journal folder */}}
+  {{ $img := .Resources.GetMatch "featured*" }}
+  {{ if not $img }}
+    {{ $imgs := .Resources.ByType "image" }}
+    {{ if gt (len $imgs) 0 }}{{ $img = index $imgs 0 }}{{ end }}
+  {{ end }}
+
   <li class="contributor-item">
+    {{ with $img }}
+      {{ $thumb := .Fill "600x340 q80" }}
+      <a class="contributor-thumb" href="{{ $j.RelPermalink }}">
+        <img src="{{ $thumb.RelPermalink }}" alt="{{ $j.Title }}" loading="lazy">
+      </a>
+    {{ end }}
+
     <div class="contributor-who">
       <span class="contributor-emoji">{{ .Params.emoji }}</span>
       {{ with $m }}<a href="{{ .RelPermalink }}"><strong>{{ .Title }}</strong></a>{{ else }}<strong>{{ .Params.contributor }}</strong>{{ end }}

@@ -670,3 +670,40 @@ html.dark .footer-subtext {
 
 html.dark .pthoth-welcome { color: #ffffff !important; }
 html.dark .pthoth-tagline { color: #bcd0ff !important; }
+.contributor-thumb img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+  margin-bottom: 0.6rem;
+}
+.contributor-list {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1.5rem;
+}
+.contributor-item {
+  border: 1px solid rgba(128, 128, 128, 0.25);
+  border-radius: 14px;
+  padding: 0.8rem;
+  list-style: none;
+}
+.contributor-thumb img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  border-radius: 10px;
+  display: block;
+  margin-bottom: 0.6rem;
+}
+.contributor-item {
+  background: rgba(255, 255, 255, 0.85);
+}
+@media (prefers-color-scheme: dark) {
+  .contributor-item {
+    background: rgba(20, 24, 40, 0.85);
+  }
+}
