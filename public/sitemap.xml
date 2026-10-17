@@ -27,6 +27,10 @@
     <lastmod>2026-08-22T00:26:12-07:00</lastmod>
   </url>
   <url>
+    <loc>http://localhost:1313/journals/week-3/</loc>
+    <lastmod>2026-08-22T00:26:12-07:00</lastmod>
+  </url>
+  <url>
     <loc>http://localhost:1313/journals/week-2/shreya/</loc>
     <lastmod>2026-10-09T22:50:00+05:30</lastmod>
   </url>
@@ -91,8 +95,44 @@
     <lastmod>2026-08-22T00:26:12-07:00</lastmod>
   </url>
   <url>
+    <loc>http://localhost:1313/journals/week-3/pavitra/</loc>
+    <lastmod>2026-10-17T00:00:00+00:00</lastmod>
+  </url>
+  <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-10-09T23:00:00+05:30</lastmod>
+    <lastmod>2026-10-17T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/journals/week-2/rakshita/</loc>
+    <lastmod>2026-10-17T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/journals/week-3/rakshita/</loc>
+    <lastmod>2026-10-17T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/journals/week-3/shreya/</loc>
+    <lastmod>2026-10-17T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/journals/week-3/ummehabiba/</loc>
+    <lastmod>2026-10-17T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/journals/week-3/varshini/</loc>
+    <lastmod>2026-10-17T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/journals/week-3/vinit/</loc>
+    <lastmod>2026-10-17T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/journals/week-2/vishwas/</loc>
+    <lastmod>2026-10-17T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/journals/week-3/vishwas/</loc>
+    <lastmod>2026-10-17T00:00:00+00:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/members/prithvi/</loc>
@@ -192,9 +232,6 @@
   </url>
   <url>
     <loc>http://localhost:1313/404/</loc>
-  </url>
-  <url>
-    <loc>http://localhost:1313/journals/week-3/</loc>
   </url>
   <url>
     <loc>http://localhost:1313/journals/week-4/</loc>
