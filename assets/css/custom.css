@@ -748,13 +748,19 @@ main .prose p {
   margin: 0;
 }
 
-Copy-Item content\journals\week-5\mamta\mamta-week5-1.jpg content\journals\week-6\mamta\mamta-week6-1.jpg
+@media (max-width: 767px) {
+  /* more space around the title and the social icons */
+  main h1 {
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  main .prose > *:first-child {
+    margin-top: 2.5rem;
+  }
 
-$p = (Resolve-Path "content\journals\week-6\mamta\index.md").Path
-$t = [IO.File]::ReadAllText($p)
-$t = $t.Replace("built on it.", "built on it.`n`n
-
-![Teaching in the classroom](mamta-week6-1.jpg)
-
-")
-[IO.File]::WriteAllText($p, $t, (New-Object Text.UTF8Encoding $false))
+  /* more space between the paragraphs */
+  main .prose p {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+}
