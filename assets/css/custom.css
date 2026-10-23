@@ -747,3 +747,14 @@ main .prose p {
   flex-shrink: 0;
   margin: 0;
 }
+
+Copy-Item content\journals\week-5\mamta\mamta-week5-1.jpg content\journals\week-6\mamta\mamta-week6-1.jpg
+
+$p = (Resolve-Path "content\journals\week-6\mamta\index.md").Path
+$t = [IO.File]::ReadAllText($p)
+$t = $t.Replace("built on it.", "built on it.`n`n
+
+![Teaching in the classroom](mamta-week6-1.jpg)
+
+")
+[IO.File]::WriteAllText($p, $t, (New-Object Text.UTF8Encoding $false))

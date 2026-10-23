@@ -3,6 +3,14 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
   <url>
+    <loc>http://localhost:1313/journals/week-4/rakshita/</loc>
+    <lastmod>2026-10-23T09:00:00-07:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/journals/week-3/sneha/</loc>
+    <lastmod>2026-10-23T09:00:00-07:00</lastmod>
+  </url>
+  <url>
     <loc>http://localhost:1313/journals/week-2/ummehabiba/</loc>
     <lastmod>2026-10-09T22:50:00+05:30</lastmod>
   </url>
@@ -39,6 +47,10 @@
     <lastmod>2026-08-22T00:26:12-07:00</lastmod>
   </url>
   <url>
+    <loc>http://localhost:1313/journals/week-4/</loc>
+    <lastmod>2026-08-22T00:26:12-07:00</lastmod>
+  </url>
+  <url>
     <loc>http://localhost:1313/journals/week-2/mamta/</loc>
     <lastmod>2026-10-09T23:00:00+05:30</lastmod>
   </url>
@@ -47,7 +59,15 @@
     <lastmod>2026-08-22T00:26:12-07:00</lastmod>
   </url>
   <url>
+    <loc>http://localhost:1313/journals/week-5/</loc>
+    <lastmod>2026-08-22T00:26:12-07:00</lastmod>
+  </url>
+  <url>
     <loc>http://localhost:1313/journals/week-1/zaveriya/</loc>
+    <lastmod>2026-08-22T00:26:12-07:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/journals/week-6/</loc>
     <lastmod>2026-08-22T00:26:12-07:00</lastmod>
   </url>
   <url>
@@ -95,11 +115,79 @@
     <lastmod>2026-08-22T00:26:12-07:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/journals/week-3/pavitra/</loc>
-    <lastmod>2026-10-17T00:00:00+00:00</lastmod>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2026-10-23T09:00:00-07:00</lastmod>
   </url>
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>http://localhost:1313/journals/week-5/mamta/</loc>
+    <lastmod>2026-10-23T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/journals/week-6/mamta/</loc>
+    <lastmod>2026-10-23T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/journals/week-5/pavitra/</loc>
+    <lastmod>2026-10-23T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/journals/week-6/pavitra/</loc>
+    <lastmod>2026-10-23T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/journals/week-5/rakshita/</loc>
+    <lastmod>2026-10-23T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/journals/week-6/rakshita/</loc>
+    <lastmod>2026-10-23T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/journals/week-5/shreya/</loc>
+    <lastmod>2026-10-23T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/journals/week-6/shreya/</loc>
+    <lastmod>2026-10-23T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/journals/week-5/ummehabiba/</loc>
+    <lastmod>2026-10-23T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/journals/week-6/ummehabiba/</loc>
+    <lastmod>2026-10-23T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/journals/week-5/vishwas/</loc>
+    <lastmod>2026-10-23T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/journals/week-6/vishwas/</loc>
+    <lastmod>2026-10-23T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/journals/week-4/mamta/</loc>
+    <lastmod>2026-10-22T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/journals/week-4/pavitra/</loc>
+    <lastmod>2026-10-22T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/journals/week-4/sneha/</loc>
+    <lastmod>2026-10-22T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/journals/week-4/ummehabiba/</loc>
+    <lastmod>2026-10-22T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/journals/week-4/vishwas/</loc>
+    <lastmod>2026-10-22T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/journals/week-3/pavitra/</loc>
     <lastmod>2026-10-17T00:00:00+00:00</lastmod>
   </url>
   <url>
@@ -232,14 +320,5 @@
   </url>
   <url>
     <loc>http://localhost:1313/404/</loc>
-  </url>
-  <url>
-    <loc>http://localhost:1313/journals/week-4/</loc>
-  </url>
-  <url>
-    <loc>http://localhost:1313/journals/week-5/</loc>
-  </url>
-  <url>
-    <loc>http://localhost:1313/journals/week-6/</loc>
   </url>
 </urlset>
