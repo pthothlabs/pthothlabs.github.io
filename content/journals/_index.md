@@ -10,6 +10,7 @@ description = "Workshops, hackathons, and sessions hosted by Pthoth Labs."
   [cascade.params]
     showDate = false
     showReadingTime = false
+    showWordCount = false
   [cascade.target]
     kind = "section"
 +++
