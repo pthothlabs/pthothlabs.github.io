@@ -1,14 +1,12 @@
 {{ define "main" }}
 <h1>{{ .Title }}</h1>
 {{ .Content }}
-<div class="member-grid">
-{{ range .Pages.ByWeight }}
-<a href="{{ .RelPermalink }}" class="member-card">
-  {{ with resources.Get .Params.image }}
-  <img src="{{ .RelPermalink }}" alt="{{ $.Title }}" class="member-card-img">
+{{/* Blowfish's own list-item partial; styled by the .article-link--simple rules in custom.css */}}
+{{ with .Pages.ByWeight }}
+<section class="mt-10 space-y-10 w-full">
+  {{ range . }}
+    {{ partial "article-link/simple.html" . }}
   {{ end }}
-  <div class="member-card-name">{{ .Title }}</div>
-</a>
+</section>
 {{ end }}
-</div>
 {{ end }}
