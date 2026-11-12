@@ -116,7 +116,11 @@
   </url>
   <url>
     <loc>http://localhost:1313/</loc>
-    <lastmod>2026-10-23T09:00:00-07:00</lastmod>
+    <lastmod>2026-11-12T00:00:00+00:00</lastmod>
+  </url>
+  <url>
+    <loc>http://localhost:1313/journals/week-5/sneha/</loc>
+    <lastmod>2026-11-12T00:00:00+00:00</lastmod>
   </url>
   <url>
     <loc>http://localhost:1313/journals/week-5/mamta/</loc>
